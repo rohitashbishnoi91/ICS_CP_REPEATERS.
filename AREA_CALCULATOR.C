@@ -1,25 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 
-float calculateRectangleArea(float length, float width) {
-    return length * width;
-}
 
-float calculateSquareArea(float side) {
-    return side * side;
-}
 
 float calculateCircleArea(float radius) {
     return M_PI * radius * radius;
 }
 
-float calculateTriangleArea(float base, float height) {
-    return 0.5 * base * height;
-}
 
-float calculateTrapezoidArea(float base1, float base2, float height) {
-    return 0.5 * (base1 + base2) * height;
-}
 
 float calculateEllipseArea(float majorAxis, float minorAxis) {
     return M_PI * majorAxis * minorAxis;
